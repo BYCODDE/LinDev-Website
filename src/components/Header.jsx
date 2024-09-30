@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <header className="flex justify-around items-center">
+    <header className="flex justify-evenly items-center w-full h-full">
       <div className="font-gilroy text-[24px] text-[#2764D6] uppercase">
         lindev
       </div>
