@@ -1,11 +1,13 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import Herosection from "../components/Herosection";
 
 function Home() {
   return (
-    <div className="p-[24px]">
-    <Header />
+    <div className="p-[48px] min-h-screen w-screen flex flex-col justify-center ">
+      <Header />
+      <Herosection />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
