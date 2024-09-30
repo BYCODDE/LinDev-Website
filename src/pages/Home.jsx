@@ -1,4 +1,5 @@
 import Course from "../components/Course";
+import Education from "../components/Education";
 import Header from "../components/Header";
 import Herosection from "../components/Herosection";
 import Slider from "../components/Slider";
@@ -10,6 +11,7 @@ function Home() {
       <Herosection />
       <Course />
       <Slider />
+      <Education />
     </div>
   );
 }
