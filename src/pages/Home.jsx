@@ -8,7 +8,7 @@ import Slider from "../components/Slider";
 
 function Home() {
   return (
-    <div className="p-[48px] min-h-screen w-screen flex flex-col justify-center items-center bg-[#ffffff] ">
+    <div className="pt-[48px] min-h-screen w-screen flex flex-col justify-center items-center bg-[#ffffff] ">
       <Header />
       <Herosection />
       <Course />
