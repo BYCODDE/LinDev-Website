@@ -8,10 +8,10 @@ function Question() {
         {[...Array(4)].map((_, index) => (
           <div
             key={index}
-            className="relative max-w-[1062px] w-full p-4 bg-white rounded-3xl flex justify-between items-center"
+            className="relative max-w-[1062px] w-full p-4 bg-white rounded-3xl flex justify-between items-center cursor-pointer "
           >
             <div className="absolute inset-0 bg-gradient-to-r from-[#2662D6] to-[#2F847F] rounded-3xl p-[1px]">
-              <div className="bg-white w-full h-full rounded-3xl"></div>
+              <div className="bg-white w-full h-full rounded-3xl "></div>
             </div>
 
             <span className="relative flex-1 z-10 text-transparent bg-clip-text bg-gradient-to-r from-[#2662D6] to-[#2F847F]">
